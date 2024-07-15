@@ -1,4 +1,4 @@
-import RightContainerLayout from './Components/HeaderLayout'
+import HeaderLayout from './Components/HeaderLayout'
 import Image from './Images/1690063986012.jpeg'
 import Footer from './Components/Footer'
 
@@ -7,7 +7,7 @@ const About =()=> {
         <div className="main">
             <div className="container-fluid">
                 <div className="row">
-                    <RightContainerLayout />
+                    <HeaderLayout />
                 </div>
                 <div className="container-sm mt-5">
                     <div className="row">               

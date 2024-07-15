@@ -1,4 +1,4 @@
-import RightContainerLayout from './Components/HeaderLayout'
+import HeaderLayout from './Components/HeaderLayout'
 import CVImage from './Images/91476fe20d80e0950b1888efb2d76903.png'
 import MunamiiImage from './Images/1498589015.png'
 import Footer from './Components/Footer'
@@ -8,7 +8,7 @@ const Work =()=> {
         <div className="main">
             <div className="container-fluid">
                 <div className="row">
-                    <RightContainerLayout />
+                    <HeaderLayout />
                 </div>
                 <div className="container-sm mt-5">
                 <h1 className="work-content-headline">Några av mina projekt</h1>

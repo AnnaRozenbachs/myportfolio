@@ -1,4 +1,4 @@
-import RightContainerLayout from './Components/HeaderLayout'
+import HeaderLayout from './Components/HeaderLayout'
 import Footer from './Components/Footer'
 
 const Home =()=> {
@@ -6,7 +6,7 @@ const Home =()=> {
          <div className="main">
             <div className="container-fluid">
                 <div className="row">
-                    <RightContainerLayout />
+                    <HeaderLayout />
                 </div>
                 <div className="container-sm mt-5">
                     <div className="row">               
@@ -18,8 +18,7 @@ const Home =()=> {
                     </div>
                 </div>
                 <Footer/>
-            </div>
-          
+            </div>         
         </div>
     )
 }
