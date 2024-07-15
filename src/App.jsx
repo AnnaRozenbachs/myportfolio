@@ -6,8 +6,9 @@ import Work from './Work'
 import Contact from './Contact'
 import Home from './Home'
 import './Fonts/Oswald-Regular.ttf';
-import './Fonts/PlaywriteMX-Regular.ttf';
 import './Fonts/Oswald-Light.ttf';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min"
 
 function App() {
   return (

@@ -1,18 +1,20 @@
-import Footer from "./Components/Footer"
-import Header from "./Components/HeaderHeadline"
-import RightContainerLayout from './Components/RightContainerLayout'
+import RightContainerLayout from './Components/HeaderLayout'
 import Image from './Images/1690063986012.jpeg'
+import Footer from './Components/Footer'
 
 const About =()=> {
     return (
         <div className="main">
-            <div className="left-container">
-                <Header />
-                <div className="about-content">
-                    <div className="about-image-container">
-                        <img src={Image}></img>
-                    </div>
-                    <div className="about-description-container">
+            <div className="container-fluid">
+                <div className="row">
+                    <RightContainerLayout />
+                </div>
+                <div className="container-sm mt-5">
+                    <div className="row">               
+                        <div className="about-image-container col col-md-4">
+                        <img className='img-fluid' src={Image}></img>
+                        </div>
+                        <div className="about-description-container col col-md-6">
                         <h1>Hej,</h1>
                         <p>
                             Jag heter Anna och är en tjej på 35 år och är systemutvecklare.
@@ -35,12 +37,12 @@ const About =()=> {
                             <p>Itancan Consulting AB - Systemutvecklare, 2019-2020 </p>
                             <p>Fakta webbyrå - Systemutvecklare, 2014-2019</p>
                         </div>                  
+                        </div>
                     </div>
                 </div>
-                <Footer />
+                <Footer/>
             </div>
-           <RightContainerLayout/>        
-           </div>
+        </div>
     )
 }
 export default About

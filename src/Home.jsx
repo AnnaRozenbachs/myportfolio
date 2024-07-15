@@ -1,18 +1,25 @@
-import Footer from "./Components/Footer"
-import Header from "./Components/HeaderHeadline"
-import RightContainerLayout from './Components/RightContainerLayout'
+import RightContainerLayout from './Components/HeaderLayout'
+import Footer from './Components/Footer'
 
 const Home =()=> {
     return (
-        <div className="main">
-            <div className="left-container">
-                <Header />
-                <div className="home-content">
-                    <p>Utbildad systemutvecklare inom .NET boende i Hässelby i Stockholm.</p>
+         <div className="main">
+            <div className="container-fluid">
+                <div className="row">
+                    <RightContainerLayout />
                 </div>
-                <Footer />
+                <div className="container-sm mt-5">
+                    <div className="row">               
+                       <div className="col col-md-12">
+                       <div>
+                            <p className="display-1" >Utbildad systemutvecklare inom .NET boende i Hässelby i Stockholm.</p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <Footer/>
             </div>
-            <RightContainerLayout/>
+          
         </div>
     )
 }

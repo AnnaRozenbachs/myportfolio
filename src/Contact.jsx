@@ -1,20 +1,24 @@
-import Footer from "./Components/Footer"
-import Header from "./Components/HeaderHeadline"
-import RightContainerLayout from "./Components/RightContainerLayout"
+import RightContainerLayout from "./Components/HeaderLayout"
+import Footer from './Components/Footer'
 
 const Contact =()=> {
     return (
-        <div className="main">
-            <div className="left-container">
-                <Header />
-                <div className="contact-content">
-                    <p>Intresserad av att jobba med mig eller bara vill säga "hej" så kan du kontakta mig via mail
-                        <a href="mailto:annarozenbachs@gmail.com"> annarozenbachs@gmail.com</a>
-                    </p>
+          <div className="main">
+            <div className="container-fluid">
+                <div className="row">
+                    <RightContainerLayout />
                 </div>
-                <Footer />
+                <div className="container-sm mt-5">
+                    <div className="row">               
+                        <div className="contact-content">
+                            <p className="display-1">Intresserad av att jobba med mig eller bara vill säga "hej" så kan du kontakta mig via mail
+                                <a href="mailto:annarozenbachs@gmail.com"> annarozenbachs@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <Footer/>
             </div>
-            <RightContainerLayout/>
         </div>
     )
 }
