@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.57af513d.css",
-    "main.js": "/myportfolio/static/js/main.bdb1f91e.js",
+    "main.css": "/myportfolio/static/css/main.6721e1e2.css",
+    "main.js": "/myportfolio/static/js/main.d5069dce.js",
     "static/js/453.83234151.chunk.js": "/myportfolio/static/js/453.83234151.chunk.js",
     "static/media/png": "/myportfolio/static/media/91476fe20d80e0950b1888efb2d76903.8cdf97bae7dcba11b9ee.png",
-    "static/media/PlaywriteMX-Regular.ttf": "/myportfolio/static/media/PlaywriteMX-Regular.ffc195b70eb78deeff69.ttf",
     "static/media/1498589015.png": "/myportfolio/static/media/1498589015.44ddf12f1e8d4989f58d.png",
     "static/media/Oswald-Light.ttf": "/myportfolio/static/media/Oswald-Light.ba7a0a165ea1a69244a7.ttf",
     "static/media/Oswald-Regular.ttf": "/myportfolio/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
     "static/media/1690063986012.jpeg": "/myportfolio/static/media/1690063986012.5b7103e74797032d4cb5.jpeg",
     "index.html": "/myportfolio/index.html",
-    "main.57af513d.css.map": "/myportfolio/static/css/main.57af513d.css.map",
-    "main.bdb1f91e.js.map": "/myportfolio/static/js/main.bdb1f91e.js.map",
+    "main.6721e1e2.css.map": "/myportfolio/static/css/main.6721e1e2.css.map",
+    "main.d5069dce.js.map": "/myportfolio/static/js/main.d5069dce.js.map",
     "453.83234151.chunk.js.map": "/myportfolio/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57af513d.css",
-    "static/js/main.bdb1f91e.js"
+    "static/css/main.6721e1e2.css",
+    "static/js/main.d5069dce.js"
   ]
 }
